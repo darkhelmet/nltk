@@ -7,8 +7,9 @@ package filter
 import "C"
 
 import (
-	"github.com/darkhelmet/nltk"
 	"unsafe"
+
+	"github.com/darkhelmet/nltk"
 )
 
 func DoubleMetaphone(in nltk.TokenChan) nltk.TokenChan {

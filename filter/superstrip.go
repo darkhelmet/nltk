@@ -1,8 +1,9 @@
 package filter
 
 import (
-	"github.com/darkhelmet/nltk"
 	"strings"
+
+	"github.com/darkhelmet/nltk"
 )
 
 func Superstrip(in nltk.TokenChan) nltk.TokenChan {

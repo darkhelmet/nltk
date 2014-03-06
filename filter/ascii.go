@@ -1,8 +1,9 @@
 package filter
 
 import (
-	"github.com/darkhelmet/nltk"
 	"strings"
+
+	"github.com/darkhelmet/nltk"
 )
 
 func Ascii(in nltk.TokenChan) nltk.TokenChan {

@@ -1,8 +1,9 @@
 package tokenizer
 
 import (
-	"github.com/darkhelmet/nltk"
 	"strings"
+
+	"github.com/darkhelmet/nltk"
 )
 
 func Simple(strs ...string) nltk.TokenChan {
