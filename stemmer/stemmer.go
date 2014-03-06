@@ -1,5 +1,5 @@
 package stemmer
 
 type Stemmer interface {
-    Stem(string) string
+	Stem(string) string
 }
